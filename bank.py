@@ -3,8 +3,6 @@ def main():
     amount = value(greeting)
     print(f"${amount}")
 
-
-
 def value(greeting):
     if greeting.startswith("Hello"):
         return 0
